@@ -1,0 +1,214 @@
+/* Estilo geral */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Oxanium', sans-serif;
+
+}
+
+body, html {
+
+  height: 100%;
+
+  background: #000;
+
+  color: #fff;
+
+  overflow-x: hidden;
+
+}
+
+.fundo {
+
+  background: url('images/freefire-bg.jpg') no-repeat center center/cover;
+
+  min-height: 100vh;
+
+  backdrop-filter: brightness(0.5);
+
+  padding: 20px;
+
+}
+
+header {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+header h1 {
+
+  font-size: 2.5em;
+
+  color: #ffb400;
+
+  text-shadow: 0 0 10px #ffb400;
+
+}
+
+header p {
+
+  color: #ccc;
+
+  font-size: 1.2em;
+
+}
+
+#intro {
+
+  text-align: center;
+
+  padding: 50px 20px;
+
+  animation: fadeInUp 2s ease-out;
+
+}
+
+#intro h2 {
+
+  font-size: 2em;
+
+  color: #ff4444;
+
+}
+
+#intro p {
+
+  margin-top: 10px;
+
+  color: #ddd;
+
+}
+
+#intro button {
+
+  margin-top: 20px;
+
+  padding: 12px 30px;
+
+  background: #ffb400;
+
+  color: #000;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+}
+
+#intro button:hover {
+
+  background: #ffaa00;
+
+}
+
+section {
+
+  background-color: rgba(0,0,0,0.7);
+
+  margin: 20px auto;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  max-width: 700px;
+
+}
+
+form input, form select, form button {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-top: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+
+}
+
+form button {
+
+  background: #00ff88;
+
+  color: #000;
+
+  font-weight: bold;
+
+  margin-top: 20px;
+
+  transition: background 0.3s;
+
+}
+
+form button:hover {
+
+  background: #00cc66;
+
+}
+
+.mpesa-box {
+
+  background: #111;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  border: 2px solid #00ff88;
+
+  text-align: center;
+
+  color: #00ff88;
+
+}
+ 
+ul li {
+  list stayle: none;
+  padding:5px 0;
+  } 
+footer {
+  text- align: center;
+  padding: 20px;
+  
+ background: #000;
+  color:#777;
+  }
+@keyframes fadeInUp {
+
+  from {
+
+    opacity: 0;
+
+    transform: translateY(50px);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}
